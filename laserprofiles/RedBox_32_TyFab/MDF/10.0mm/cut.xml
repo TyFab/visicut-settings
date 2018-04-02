@@ -1,0 +1,12 @@
+<linked-list>
+  <com.t__oster.liblasercut.FloatPowerSpeedFocusProperty>
+    <power>80.0</power>
+    <speed>13.0</speed>
+    <focus>0.0</focus>
+  </com.t__oster.liblasercut.FloatPowerSpeedFocusProperty>
+  <com.t__oster.liblasercut.FloatPowerSpeedFocusProperty>
+    <power>80.0</power>
+    <speed>13.0</speed>
+    <focus>5.0</focus>
+  </com.t__oster.liblasercut.FloatPowerSpeedFocusProperty>
+</linked-list>

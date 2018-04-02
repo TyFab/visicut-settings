@@ -1,0 +1,12 @@
+<material>
+  <thumbnailPath>Carton.png</thumbnailPath>
+  <engraveColor>#999999</engraveColor>
+  <cutColor>#000000</cutColor>
+  <color>#993300</color>
+  <name>Carton</name>
+  <materialThicknesses>
+    <float>2.0</float>
+    <float>3.0</float>
+    <float>6.0</float>
+  </materialThicknesses>
+</material>

@@ -1,0 +1,47 @@
+<laserDevice>
+  <originBottomLeft>false</originBottomLeft>
+  <jobSentText>Job was sent as &apos;$jobname&apos;
+Please:
+-Close the lid
+-Turn on the Ventilation
+-And press &apos;start&apos; on the Lasercutter $name</jobSentText>
+  <jobPrefix>visicut </jobPrefix>
+  <laserCutter class="com.t_oster.liblasercut.drivers.SmoothieBoard">
+    <lineend>CRLF</lineend>
+    <baudRate>115200</baudRate>
+    <flipXaxis>false</flipXaxis>
+    <flipYaxis>false</flipYaxis>
+    <httpUploadUrl>http://192.168.1.53/upload</httpUploadUrl>
+    <autoPlay>true</autoPlay>
+    <supportedResolutions>100,500,1000</supportedResolutions>
+    <waitForOKafterEachLine>true</waitForOKafterEachLine>
+    <preJobGcode>G21,G90, G92 X0 Y0 </preJobGcode>
+    <postJobGcode>G0 X0 Y0,</postJobGcode>
+    <serialTimeout>15000</serialTimeout>
+    <exportPath></exportPath>
+    <uploadMethod>IP</uploadMethod>
+    <identificationLine>Smoothie</identificationLine>
+    <initDelay>0</initDelay>
+    <host>192.168.1.53</host>
+    <comport>auto</comport>
+    <max__speed>3600.0</max__speed>
+    <travel__speed>3600.0</travel__speed>
+    <blankLaserDuringRapids>false</blankLaserDuringRapids>
+    <useBidirectionalRastering>false</useBidirectionalRastering>
+    <spindleMax>1.0</spindleMax>
+    <currentPower>-1.0</currentPower>
+    <currentSpeed>-1.0</currentSpeed>
+    <nextPower>-1.0</nextPower>
+    <nextSpeed>-1.0</nextSpeed>
+    <currentFocus>0.0</currentFocus>
+    <bedWidth>700.0</bedWidth>
+    <bedHeight>1000.0</bedHeight>
+    <rasterPadding>5.0</rasterPadding>
+  </laserCutter>
+  <cameraTiming>0</cameraTiming>
+  <projectorTiming>0</projectorTiming>
+  <projectorWidth>0</projectorWidth>
+  <projectorHeight>0</projectorHeight>
+  <thumbnailPath>Decoupeuse_32_Vinyle_32_A1.png</thumbnailPath>
+  <name>Decoupeuse Vinyle A1</name>
+</laserDevice>

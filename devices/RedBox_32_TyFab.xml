@@ -1,0 +1,47 @@
+<laserDevice>
+  <originBottomLeft>true</originBottomLeft>
+  <jobSentText>Job was sent as &apos;$jobname&apos;
+Please:
+-Close the lid
+-Turn on the Ventilation
+-And press &apos;start&apos; on the Lasercutter $name</jobSentText>
+  <jobPrefix>visicut </jobPrefix>
+  <laserCutter class="com.t_oster.liblasercut.drivers.SmoothieBoard">
+    <lineend>CRLF</lineend>
+    <baudRate>115200</baudRate>
+    <flipXaxis>false</flipXaxis>
+    <flipYaxis>true</flipYaxis>
+    <httpUploadUrl></httpUploadUrl>
+    <autoPlay>true</autoPlay>
+    <supportedResolutions>100,500,1000</supportedResolutions>
+    <waitForOKafterEachLine>true</waitForOKafterEachLine>
+    <preJobGcode>G21,G90, G28 X Y</preJobGcode>
+    <postJobGcode>G28</postJobGcode>
+    <serialTimeout>15000</serialTimeout>
+    <uploadMethod>File</uploadMethod>
+    <identificationLine>Smoothie</identificationLine>
+    <initDelay>0</initDelay>
+    <host></host>
+    <comport>auto</comport>
+    <max__speed>2400.0</max__speed>
+    <travel__speed>3600.0</travel__speed>
+    <blankLaserDuringRapids>false</blankLaserDuringRapids>
+    <useBidirectionalRastering>false</useBidirectionalRastering>
+    <spindleMax>1.0</spindleMax>
+    <currentPower>-1.0</currentPower>
+    <currentSpeed>-1.0</currentSpeed>
+    <nextPower>-1.0</nextPower>
+    <nextSpeed>-1.0</nextSpeed>
+    <currentFocus>0.0</currentFocus>
+    <bedWidth>700.0</bedWidth>
+    <bedHeight>500.0</bedHeight>
+    <rasterPadding>0.0</rasterPadding>
+  </laserCutter>
+  <cameraTiming>0</cameraTiming>
+  <projectorTiming>0</projectorTiming>
+  <projectorWidth>0</projectorWidth>
+  <projectorHeight>0</projectorHeight>
+  <thumbnailPath>RedBox_32_TyFab.png</thumbnailPath>
+  <description>60W co2 lasercutter</description>
+  <name>RedBox TyFab</name>
+</laserDevice>

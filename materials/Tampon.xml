@@ -1,0 +1,11 @@
+<material>
+  <description></description>
+  <thumbnailPath>Tampon.png</thumbnailPath>
+  <engraveColor>#660000</engraveColor>
+  <cutColor>#000000</cutColor>
+  <color>#ff3333</color>
+  <name>Tampon</name>
+  <materialThicknesses>
+    <float>2.0</float>
+  </materialThicknesses>
+</material>

@@ -1,0 +1,33 @@
+<visicutPreferences>
+  <disableSandbox>false</disableSandbox>
+  <useFilenamesForJobs>false</useFilenamesForJobs>
+  <labName>unknown lab</labName>
+  <enableQRCodes>false</enableQRCodes>
+  <fastQRCodes>false</fastQRCodes>
+  <fabqrActive>false</fabqrActive>
+  <fabqrPrivateURL></fabqrPrivateURL>
+  <fabqrPublicURL></fabqrPublicURL>
+  <fabqrPrivateUser></fabqrPrivateUser>
+  <fabqrPrivatePassword></fabqrPrivatePassword>
+  <windowBounds>
+    <x>62</x>
+    <y>0</y>
+    <width>1153</width>
+    <height>780</height>
+  </windowBounds>
+  <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
+  <recentFiles>
+    <string>D:\3d\cnc\scancut\Triskel.svg</string>
+    <string>C:\Users\llegoff\AppData\Local\Temp\ink_ext_XXXXXX.svgIJI9XY.svg</string>
+    <string>C:\Program Files (x86)\VisiCut\examples\Basic\circle-20mm-red.svg</string>
+    <string>D:\3d\reprap\mondrian\plateau Z.dxf</string>
+    <string>D:\3d\reprap\Prusa3-master\frame-6mm.dxf</string>
+  </recentFiles>
+  <lastMaterial>MDF</lastMaterial>
+  <lastLaserDevice>RedBox TyFab</lastLaserDevice>
+  <availableImporters/>
+  <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
+  <fabLabLocationFacebookId></fabLabLocationFacebookId>
+  <laserCutterTags>lasercut</laserCutterTags>
+  <supportedExtensions></supportedExtensions>
+</visicutPreferences>

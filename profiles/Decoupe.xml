@@ -1,0 +1,10 @@
+<vectorProfile>
+  <DPI>500.0</DPI>
+  <description>A new Laserprofile</description>
+  <thumbnailPath>Decoupe.png</thumbnailPath>
+  <name>Decoupe</name>
+  <orderStrategy>INNER_FIRST</orderStrategy>
+  <useOutline>true</useOutline>
+  <isCut>true</isCut>
+  <width>1.0</width>
+</vectorProfile>

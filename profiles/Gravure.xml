@@ -1,0 +1,11 @@
+<rasterProfile>
+  <DPI>500.0</DPI>
+  <description>gravure image en mode raster</description>
+  <thumbnailPath>Gravure.png</thumbnailPath>
+  <name>Gravure</name>
+  <invertColors>false</invertColors>
+  <colorShift>0</colorShift>
+  <ditherAlgorithm class="com.t_oster.liblasercut.dithering.FloydSteinberg">
+    <progress>0</progress>
+  </ditherAlgorithm>
+</rasterProfile>

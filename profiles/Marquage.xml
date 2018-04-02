@@ -1,0 +1,10 @@
+<vectorProfile>
+  <DPI>500.0</DPI>
+  <description>gravure ligne vectorielle</description>
+  <thumbnailPath>Marquage.png</thumbnailPath>
+  <name>Marquage</name>
+  <orderStrategy>NEAREST</orderStrategy>
+  <useOutline>false</useOutline>
+  <isCut>false</isCut>
+  <width>1.0</width>
+</vectorProfile>
