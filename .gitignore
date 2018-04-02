@@ -1,3 +1,4 @@
 examples/
-axamples
+# Temp and swap files
+*.swp
 .directory
